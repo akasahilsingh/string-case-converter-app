@@ -22,13 +22,13 @@ Supports **Lowercase, Uppercase, PascalCase, CamelCase, Snake_Case, Kebab-Case**
 ---
 
 ## 📂 Project Structure  
-
+```
 📦 string-case-converter
 ┣ 📜 index.html # Main HTML structure
 ┣ 📜 style.css # Styling for input & outputs
 ┣ 📜 script.js # JavaScript logic for conversions
 ┗ 📜 README.md # Project documentation
-
+```
 
 ---
 
@@ -77,5 +77,6 @@ HELLO KAISE HO
 1. Clone the repository:  
    ```bash
    git clone https://github.com/akasahilsingh/string-case-converter.git
+
 
 
