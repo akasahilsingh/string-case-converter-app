@@ -5,7 +5,7 @@ Supports **Lowercase, Uppercase, PascalCase, CamelCase, Snake_Case, Kebab-Case**
 
 ## 🌐 Visit Website  
 
-👉 [Click here to use the String Case Converter](https://string-case-converter-app.vercel.app/)  
+👉 [Click here to use the String Case Converter](https://string-case-converter-git-ab4a03-sahil-singhs-projects-d7b5c4bb.vercel.app/)  
 
 ---
 
@@ -77,6 +77,7 @@ HELLO KAISE HO
 1. Clone the repository:  
    ```bash
    git clone https://github.com/akasahilsingh/string-case-converter.git
+
 
 
 
