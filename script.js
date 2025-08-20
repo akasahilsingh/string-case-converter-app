@@ -6,7 +6,9 @@ const camelCase = document.querySelector(".camel-case");
 const kebabCase = document.querySelector(".kebab-case");
 const snakeCase = document.querySelector(".snake-case");
 const pascalCase = document.querySelector(".pascal-case");
-
+document.querySelectorAll(".input-value").forEach(e => {
+    e.disabled = true;
+})
 
 mainInput.addEventListener("input",()=> {
     lowerCase.value = mainInput.value.toLowerCase();
