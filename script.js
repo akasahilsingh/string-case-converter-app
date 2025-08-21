@@ -13,8 +13,8 @@ document.querySelectorAll(".input-value").forEach(e => {
 mainInput.addEventListener("input",()=> {
     lowerCase.value = mainInput.value.toLowerCase();
     upperCase.value = mainInput.value.toUpperCase();
-    kebabCase.value = mainInput.value.toLowerCase().split(" ").join("-");
-    snakeCase.value = mainInput.value.toLowerCase().split(" ").join("_");
+    kebabCase.value = mainInput.value.trim().toLowerCase().split(" ").join("-");
+    snakeCase.value = mainInput.value.trim().toLowerCase().split(" ").join("_");
     pascalCase.value = (mainInput.value.split(" ").map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())).join("");
     camelCase.value = (mainInput.value.split(" ").map((word, i) => {if( i === 0) {
         return word.toLowerCase();
